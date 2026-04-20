@@ -275,9 +275,12 @@ export default function CatalogPage() {
           <p className="text-xs font-bold text-slate-300 uppercase tracking-widest">
             © 2024 Berkah Oleh-Oleh - Kualitas Khas Kuningan
           </p>
-          {/* Tombol Rahasia Admin */}
-          <a href="/admin" className="w-8 h-8 rounded-full flex items-center justify-center opacity-0 hover:opacity-100 focus:opacity-100 transition-opacity duration-300">
-            <span className="text-xs">👑</span>
+          {/* Tombol Admin Khusus Pemilik (Terlihat) */}
+          <a 
+            href="/admin" 
+            className="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-slate-800 rounded-xl text-xs font-bold transition-all mb-4"
+          >
+            <span>⚙️</span> Akses Ruang Kendali
           </a>
         </div>
       </footer>
