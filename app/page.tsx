@@ -251,7 +251,7 @@ export default function CatalogPage() {
                 <span className="text-xl">🕒</span>
                 <div>
                   <p className="font-bold text-slate-800 text-sm">Jam Operasional</p>
-                  <p className="text-slate-500 text-sm">Setiap Hari: 08:00 - 16:00 WIB</p>
+                  <p className="text-slate-500 text-sm">Setiap Hari: 07:00 - 17:30 WIB</p>
                 </div>
               </div>
             </div>
