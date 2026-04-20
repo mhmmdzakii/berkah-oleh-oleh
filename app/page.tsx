@@ -277,7 +277,7 @@ export default function CatalogPage() {
           </p>
           {/* Tombol Rahasia Admin */}
           <a href="/admin" className="w-8 h-8 rounded-full flex items-center justify-center opacity-0 hover:opacity-100 focus:opacity-100 transition-opacity duration-300">
-            <span className="text-xs">Admin</span>
+            <span className="text-xs">👑</span>
           </a>
         </div>
       </footer>
