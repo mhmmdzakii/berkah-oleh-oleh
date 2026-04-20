@@ -66,7 +66,7 @@ export default function CatalogPage() {
     });
     
     text += `\n📦 *TOTAL BELANJA: Rp ${totalSemua.toLocaleString()}*`;
-    window.open(`https://wa.me/6281234567890?text=${encodeURIComponent(text)}`, "_blank");
+    window.open(`https://wa.me/6289509800161?text=${encodeURIComponent(text)}`, "_blank");
   };
 
   const produkSesuaiTarget = products.filter(p => {
