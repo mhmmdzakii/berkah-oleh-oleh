@@ -271,10 +271,14 @@ export default function CatalogPage() {
             </a>
           </div>
         </div>
-        <div className="max-w-7xl mx-auto px-6 mt-12 pt-8 border-t border-slate-50 text-center">
+        <div className="max-w-7xl mx-auto px-6 mt-12 pt-8 border-t border-slate-50 text-center flex flex-col items-center gap-2">
           <p className="text-xs font-bold text-slate-300 uppercase tracking-widest">
             © 2024 Berkah Oleh-Oleh - Kualitas Khas Kuningan
           </p>
+          {/* Tombol Rahasia Admin */}
+          <a href="/admin" className="w-8 h-8 rounded-full flex items-center justify-center opacity-0 hover:opacity-100 focus:opacity-100 transition-opacity duration-300">
+            <span className="text-xs">Admin</span>
+          </a>
         </div>
       </footer>
 
